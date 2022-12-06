@@ -4,8 +4,7 @@
 try:
 	from PyPDF2 import PdfFileReader
 	from deep_translator import GoogleTranslator
-	from os import system
-	from sys import exit
+	import sys,os
 except Exception as e:
 	print(f"Modül Yüklü değil{e}")
 	try:
